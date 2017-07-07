@@ -1,0 +1,24 @@
+#================#
+Switched to the repo I need to work
+#================#
+
+
+#==================#
+Added new key
+$ ssh-keygen -t rsa
+#==================#
+
+
+#===================================#
+Executed these command one after other
+$ eval `ssh-agent -s`
+$ ssh-agent -s
+$ ssh-add
+#===================================#
+
+
+#======================#
+To check if key is added
+$ ssh-add -l
+#======================#
+
